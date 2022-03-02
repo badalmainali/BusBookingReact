@@ -1,0 +1,410 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'MontSerrat',sans-serif !important;
+  background: linear-gradient(0.25turn, #73a9c0, #ebf8e1, #ddb080);;
+  /* background: linear-gradient(90deg, rgba(195, 220, 241, 0.938) 0%, rgba(135, 189, 243, 0.24) 100%); */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* logo designing */
+.head-one{
+  font-size: 25px;
+  color: orange;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.head-two{
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* navbar related all  */
+.navbar-toggler-icon{
+  color: wheat !important;
+}
+.navbar{
+  background-color: rgb(53, 51, 51) !important;
+ 
+  backdrop-filter: blur(62px) !important;
+}
+
+.nav-link{
+  color: rgb(247, 240, 240) !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+}
+
+.navbar-brand{
+  margin-left: 2% !important;
+}
+
+.navbar-nav{
+  margin-left: auto !important;
+}
+
+.nav-item{
+  margin-right: 35px;
+}
+
+.regs{
+   
+   color: orange !important;
+   
+}
+.logn{
+  
+  color: orange !important;
+}
+
+/* for images */
+.smallimg{
+  height: 200px;
+  width: 92% !important;
+  border-radius: 12px !important;
+}
+
+/* for button  */
+.btn{
+  box-shadow: none !important;
+  background-color: rgb(53, 52, 48);
+  color: white;
+}
+
+/* for buses styling */
+.bs{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  margin-top: 25px !important;
+  padding: 10px !important;
+  border-radius: 10px !important;
+  color: black;
+  background: linear-gradient(90deg, rgba(198, 203, 209, 0.6) 0%, rgba(243, 246, 250, 0.24) 100%);
+  backdrop-filter: blur(62px);
+}
+
+.bigimg{
+  height: 430px;
+  width: 90%;
+  border-radius: 15px;
+}
+
+/* --------------footer------------- */
+.footer{
+  background: #18222e;
+  color:white;
+}
+
+/* booking screen */
+.bookscreen{
+  padding: 5px !important;
+  margin-left: 1% !important;
+}
+ 
+
+/* register page css */
+
+.bigimgs{
+  height: 415px;
+  width: 110%;
+  border-radius: 1px;
+  -webkit-filter: blur(2px); /* Safari 6.0 - 9.0 */
+  filter: blur(4px);
+}
+
+.lreg{
+  
+  margin-top: 1% !important; 
+   
+}
+
+.rreg{
+  margin-top: 1% !important;
+  margin-left: 2.3% !important;
+  background: linear-gradient(217deg, rgba(243, 106, 14, 0.8), rgba(116, 109, 109, 0) 70.71%),
+            linear-gradient(127deg, rgba(12, 243, 108, 0.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(115, 39, 255, 0.8), rgba(0,0,255,0) 70.71%);
+}
+
+.reg{
+  text-align: center !important;
+  font-size: calc( 1em + 8vmin );
+  font-weight: 220;
+  margin-top: 0.4% !important;
+  color: rgb(20, 19, 19);
+  
+  --x-offset: -0.0625em;
+  --y-offset: 0.0625em;
+  --stroke: 0.025em;
+  --background-color: white;
+  --stroke-color: lightblue;
+  
+  text-shadow: 
+    
+    var(--x-offset)
+    var(--y-offset)
+    0px
+    var(--background-color), 
+    
+    calc( var(--x-offset) - var(--stroke) )
+    calc( var(--y-offset) + var(--stroke) )
+    0px
+    var(--stroke-color);
+  
+}
+/* for browsers that support spread, added in
+https://drafts.csswg.org/css-text-decor-4/#text-shadow-property
+currently: none browsers! none of them!
+I can't even find a test: 
+https://wpt.fyi/results/css/css-text-decor */
+@supports ( text-shadow: 1px 1px 1px 1px black ) {
+  h1 {
+    text-shadow:
+      
+      var(--x-offset)
+      var(--y-offset)
+      0px
+      0px
+      var(--background-color), 
+      
+      var(--x-offset) 
+      var(--y-offset)
+      var(--stroke)
+      0px
+      var(--stroke-color);
+    
+  }
+}
+
+/* registration */
+.register{
+  margin-left: 14% !important;
+}
+.input-reg{
+  margin-top: 7%;
+  margin-left: 16%;
+}
+
+
+
+.form-control{
+  border: 1px !important;
+  margin-top: 2% !important;
+  width: 60%;
+  margin-left: 10% !important;
+  background: rgb(216, 211, 211);
+  box-shadow: none !important;
+}
+
+.btn-reg{
+  margin-top: 2% !important;
+  margin-left: 10%;
+  width: 60%;
+}
+
+.regtxt{
+  font-weight: bold;
+  font-size: large;
+  margin-left: 13%;
+}
+
+.lgn{
+  text-decoration: none !important;
+  color: antiquewhite !important;
+  font-size: large;
+}
+
+.lgns{
+  text-align: center;
+  margin-right: 17% !important;
+}
+
+/* login */
+.lgnhd{
+  text-align: center;
+  margin-right: 34% !important;
+}
+
+.login{
+  margin-left: 24% !important;
+}
+
+/* search bar */
+.datebar{
+  margin-left: 10%;
+  margin-top: 1%;
+}
+
+.searchbar{
+  margin-left: 20%;
+}
+
+/* my bookings */
+.mybookings{
+  height: 20% !important;
+}
+
+.cncl{
+  margin-bottom: 2% !important;
+}
+
+
+.btnaddbus{
+  float: right;
+  margin-right: 51% !important;
+  margin-top: 3% !important;
+  
+}
+
+.addbustxt{
+  margin-left: 11% !important;
+}
+
+.imgg{
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  filter: blur(1.5px);
+}
+
+/* text */
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900,400italic,700italic,900italic);
+
+*,
+:before,
+:after {
+    box-sizing: border-box;
+}
+
+.mainpagetxt {
+    animation: text-shadow 1.5s ease-in-out infinite;
+    font-size: 2em;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 2% !important;
+}
+
+.mainpagetxt:hover {
+    animation-play-state: paused;
+}
+
+
+@keyframes text-shadow {
+    0% {  
+        transform: translateY(0);
+        text-shadow: 
+            0 0 0 #0c2ffb, 
+            0 0 0 #2cfcfd, 
+            0 0 0 #fb203b, 
+            0 0 0 #fefc4b;
+    }
+
+    20% {  
+        transform: translateY(-1em);
+        text-shadow: 
+            0 0.125em 0 #0c2ffb, 
+            0 0.25em 0 #2cfcfd, 
+            0 -0.125em 0 #fb203b, 
+            0 -0.25em 0 #fefc4b;
+    }
+
+    40% {  
+        transform: translateY(0.5em);
+        text-shadow: 
+            0 -0.0625em 0 #0c2ffb, 
+            0 -0.125em 0 #2cfcfd, 
+            0 0.0625em 0 #fb203b, 
+            0 0.125em 0 #fefc4b;
+    }
+    
+   60% {
+        transform: translateY(-0.25em);
+        text-shadow: 
+            0 0.03125em 0 #0c2ffb, 
+            0 0.0625em 0 #2cfcfd, 
+            0 -0.03125em 0 #fb203b, 
+            0 -0.0625em 0 #fefc4b;
+    }
+
+    80% {  
+        transform: translateY(0);
+        text-shadow: 
+            0 0 0 #0c2ffb, 
+            0 0 0 #2cfcfd, 
+            0 0 0 #fb203b, 
+            0 0 0 #fefc4b;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+      animation: none !important;
+      transition: none !important;
+    }
+}
+
+.hmtxt{
+  text-align: center !important;
+  margin-top: 9% !important;
+  text-shadow: 2px 2px 12px #1f1d1d;
+  
+}
+
+.label{
+  background-color: #d3ecec !important;
+  width: 100% !important;
+  color: black !important;
+}
+
+.midsec{
+  margin-left: 16% !important;
+}
+
+.imgss{
+  filter: blur(4px);
+}
+
+.cntct{
+  
+ margin-left: 16% !important;
+
+}
+
+.cntbtn{
+  margin-right: 18% !important;
+}
+
+.cntimg{
+  margin-right: 2% !important;
+  border-radius: 50% !important;
+}
+
+/* Large profile image */
+.large-profile {
+  background: url('https://img.search.brave.com/8NDfSYMS3IDSbqMP7Zb-gDa-cKSkUunGYp_ONQR48XU/rs:fit:632:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5p/NHEyVmkzS0w3MEMx/azJjaTE5di1nSGFG/aiZwaWQ9QXBp');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Create two equal columns that float next to each other */
+.column-2 {
+  float: left;
+  width: 45%;
+  padding: 40px;
+  padding-left:70px;
+  padding-right: 70px;
+  height: 475px;
+  margin:30px;
+  margin-right:30px;
+  margin-bottom: 70px;
+  background-color: #FEDE00;
+  line-height:2;
+}
